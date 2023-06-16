@@ -22,7 +22,7 @@ public class FunRestController {
 	
 	// expose new endpoint for login page
 	
-	@GetMapping("/login")
+	@GetMapping("/loginpage")
 	public String login() {
 		return "Login Page!";
 	}
